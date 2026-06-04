@@ -1,0 +1,46 @@
+Input Notebook:  /tmp/rpymill_nb20260605-954090-sv8i5g/旅館宿泊数予測PoC.filtered.ipynb
+Output Notebook: /home/h_ino/wsl-work/projects/inn-forecast/outputs/out_preprocess.ipynb
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: inn-forecast
+Executing:  11%|█         | 1/9 [00:01<00:10,  1.35s/cell]Executing:  33%|███▎      | 3/9 [00:01<00:02,  2.55cell/s]Executing:  33%|███▎      | 3/9 [00:01<00:03,  1.68cell/s]
+Traceback (most recent call last):
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/bin/papermill", line 6, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/click/core.py", line 1524, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/click/core.py", line 1445, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/click/core.py", line 1308, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/click/core.py", line 877, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/home/h_ino/wsl-work/projects/inn-forecast/.venv/lib/python3.12/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [3]":
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[3], line 8
+      4 # 1. Google Driveのマウント
+      5 # drive.mount('/content/drive')
+      6 
+      7 # データが格納されているフォルダ（説明書の構造に合わせる）
+----> 8 DATA_DIR = BASE_DIR / "Datas"
+      9 
+     10 # 3. パラメータセット（基本設定）
+     11 PREDICTION_TARGET_YEAR = 2026
+
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+

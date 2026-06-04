@@ -1,0 +1,4 @@
+Input Notebook:  /home/h_ino/wsl-work/projects/inn-forecast/notebook/旅館宿泊数予測PoC.ipynb
+Output Notebook: /home/h_ino/wsl-work/projects/inn-forecast/outputs/out_preprocess.ipynb
+Executing:   0%|          | 0/15 [00:00<?, ?cell/s]Executing notebook with kernel: inn-forecast
+Executing:   7%|▋         | 1/15 [00:01<00:18,  1.34s/cell]Executing:  33%|███▎      | 5/15 [00:04<00:08,  1.20cell/s]Executing:  60%|██████    | 9/15 [00:04<00:02,  2.50cell/s]Executing:  73%|███████▎  | 11/15 [00:04<00:01,  2.78cell/s]Executing:  87%|████████▋ | 13/15 [00:05<00:00,  3.14cell/s]Executing: 100%|██████████| 15/15 [00:06<00:00,  2.24cell/s]Executing: 100%|██████████| 15/15 [00:07<00:00,  1.98cell/s]
