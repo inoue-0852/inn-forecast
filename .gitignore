@@ -1,5 +1,6 @@
 .venv/
 outputs/
+logs/
 
 .ipynb_checkpoints/
 
