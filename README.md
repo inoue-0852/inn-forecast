@@ -108,3 +108,25 @@ Pythonで答えを見つける。
 Rubyがそれを社会実装する。
 
 是非お試し下さい！
+
+## 環境節制
+
+git clone ...
+cd inn-forecast
+
+### Ruby
+Requirements
+
+- Python 3.12+
+- Ruby 3.2+
+- RubyPyMill 0.3.1+
+
+### Python
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+### 実行
+
+ruby scripts/rpymill_forecast.rb
